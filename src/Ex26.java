@@ -11,7 +11,7 @@ public class Ex26 {
 		
 		float div = num / Math.round(num);
 		
-		if (div == 1) {
+		if (div == 1 || div == 0.0) {
 			System.out.println("Inteiro");
 		} else {
 			System.out.println("Decimal");
